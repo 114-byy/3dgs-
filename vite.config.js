@@ -25,7 +25,7 @@ export default defineConfig({
     
     // 合并 rollupOptions
     rollupOptions: {
-      input: '/index.html', // 明确入口 HTML
+      input: 'index.html', // 明确入口 HTML
       output: {
         assetFileNames: 'assets/[name]-[hash][extname]',
         chunkFileNames: 'assets/[name]-[hash].js',
